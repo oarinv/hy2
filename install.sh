@@ -261,6 +261,7 @@ echo -e "$yellow 密码 (Password) = ${cyan}${pwd}${none}"
 echo -e "$yellow 传输层安全 (TLS) = ${cyan}tls${none}"
 echo -e "$yellow 应用层协议协商 (Alpn) = ${cyan}h3${none}"
 echo -e "$yellow 跳过证书验证 (allowInsecure) = ${cyan}true${none}"
+echo -e "$yellow 证书指纹 (pinSHA256) = ${cyan}${pinsha256_cert}${none}"
 echo
 
 # 如果是 IPv6 那么在生成节点分享链接时, 要用[]把IP包起来
